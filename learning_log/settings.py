@@ -25,7 +25,7 @@ SECRET_KEY = '-00yn#bvc#$rx=v&^w+#8#4($%*%(a$d*uxibe4c54wosgvu*d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*',]
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'mod_wsgi.server',
     'bootstrap3',
 ]
 
