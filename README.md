@@ -10,4 +10,11 @@ rpm -ivh *
 
 3、通过Python创建虚拟环境，安装安装包
 
+Django (1.11)
+django-bootstrap3 (8.2.2)
+mod-wsgi (4.5.15)
+mysqlclient (1.3.10)
 
+4、配置settings.py中的数据库参数
+
+5
