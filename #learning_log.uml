@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DjangoModelDependency</ID>
+  <OriginalElement>#learning_log</OriginalElement>
+  <nodes>
+    <node x="72.0" y="526.0">django.contrib.auth.models.User</node>
+    <node x="53.0" y="168.0">django.contrib.auth.models.Permission</node>
+    <node x="62.03605015673986" y="872.166144200627">learning_logs.models.Entry</node>
+    <node x="19.5" y="0.0">django.contrib.contenttypes.models.ContentType</node>
+    <node x="43.5" y="652.8871473354233">learning_logs.models.Topic</node>
+    <node x="0.0" y="358.0">django.contrib.auth.models.Group</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="django.contrib.auth.models.User" target="django.contrib.auth.models.Group">
+      <point x="-59.25" y="-26.0" />
+      <point x="131.25" y="501.0" />
+      <point x="123.5" y="501.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="learning_logs.models.Topic" target="django.contrib.auth.models.User">
+      <point x="0.0" y="-70.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="django.contrib.auth.models.User" target="django.contrib.auth.models.Permission">
+      <point x="59.25" y="-26.0" />
+      <point x="249.75" y="501.0" />
+      <point x="257.5" y="501.0" />
+      <point x="257.5" y="333.0" />
+      <point x="259.25" y="333.0" />
+      <point x="68.75" y="70.0" />
+    </edge>
+    <edge source="django.contrib.auth.models.Group" target="django.contrib.auth.models.Permission">
+      <point x="0.0" y="-59.0" />
+      <point x="123.5" y="333.0" />
+      <point x="121.75" y="333.0" />
+      <point x="-68.75" y="70.0" />
+    </edge>
+    <edge source="django.contrib.auth.models.Permission" target="django.contrib.contenttypes.models.ContentType">
+      <point x="0.0" y="-70.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="learning_logs.models.Entry" target="learning_logs.models.Topic">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.683083511777302" x="181.9122257053291" y="717.0" />
+  <SelectedNodes>
+    <node>learning_logs.models.Topic</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+</Diagram>
+
